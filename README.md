@@ -1,6 +1,6 @@
 ---
 title: "Cyclistic Case Study"
-author: "Camille Johnson"
+author: "Lakshmi Kant"
 date: "`r Sys.Date()`"
 output:
   pdf_document: default
