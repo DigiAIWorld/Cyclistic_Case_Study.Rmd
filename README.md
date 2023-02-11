@@ -57,18 +57,18 @@ library(hms)
 #### Loading .csv files
 
 ```{r message=FALSE, warning=FALSE}
-jun22_df <- read_csv("C:/Users/camil/Downloads/divvy-tripdata/202206-divvy-tripdata.csv")
-may22_df <- read_csv("C:/Users/camil/Downloads/divvy-tripdata/202205-divvy-tripdata.csv")
-apr22_df <- read_csv("C:/Users/camil/Downloads/divvy-tripdata/202204-divvy-tripdata.csv")
-mar22_df <- read_csv("C:/Users/camil/Downloads/divvy-tripdata/202203-divvy-tripdata.csv")
-feb22_df <- read_csv("C:/Users/camil/Downloads/divvy-tripdata/202202-divvy-tripdata.csv")
-jan22_df <- read_csv("C:/Users/camil/Downloads/divvy-tripdata/202201-divvy-tripdata.csv")
-dec21_df <- read_csv("C:/Users/camil/Downloads/divvy-tripdata/202112-divvy-tripdata.csv")
-nov21_df <- read_csv("C:/Users/camil/Downloads/divvy-tripdata/202111-divvy-tripdata.csv")
-oct21_df <- read_csv("C:/Users/camil/Downloads/divvy-tripdata/202110-divvy-tripdata.csv")
-sep21_df <- read_csv("C:/Users/camil/Downloads/divvy-tripdata/202109-divvy-tripdata.csv")
-aug21_df <- read_csv("C:/Users/camil/Downloads/divvy-tripdata/202108-divvy-tripdata.csv")
-jul21_df <- read_csv("C:/Users/camil/Downloads/divvy-tripdata/202107-divvy-tripdata.csv")
+jun22_df <- read_csv("C:/Users/lk/Downloads/divvy-tripdata/202206-divvy-tripdata.csv")
+may22_df <- read_csv("C:/Users/lk/Downloads/divvy-tripdata/202205-divvy-tripdata.csv")
+apr22_df <- read_csv("C:/Users/lk/Downloads/divvy-tripdata/202204-divvy-tripdata.csv")
+mar22_df <- read_csv("C:/Users/lk/Downloads/divvy-tripdata/202203-divvy-tripdata.csv")
+feb22_df <- read_csv("C:/Users/lk/Downloads/divvy-tripdata/202202-divvy-tripdata.csv")
+jan22_df <- read_csv("C:/Users/lk/Downloads/divvy-tripdata/202201-divvy-tripdata.csv")
+dec21_df <- read_csv("C:/Users/lk/Downloads/divvy-tripdata/202112-divvy-tripdata.csv")
+nov21_df <- read_csv("C:/Users/lk/Downloads/divvy-tripdata/202111-divvy-tripdata.csv")
+oct21_df <- read_csv("C:/Users/lk/Downloads/divvy-tripdata/202110-divvy-tripdata.csv")
+sep21_df <- read_csv("C:/Users/lk/Downloads/divvy-tripdata/202109-divvy-tripdata.csv")
+aug21_df <- read_csv("C:/Users/lk/Downloads/divvy-tripdata/202108-divvy-tripdata.csv")
+jul21_df <- read_csv("C:/Users/lk/Downloads/divvy-tripdata/202107-divvy-tripdata.csv")
 
 ```
 
@@ -90,7 +90,7 @@ jul21_df <- read_csv("C:/Users/camil/Downloads/divvy-tripdata/202107-divvy-tripd
 #### Random Sampling to determine confidence level and margin of error 
 
 ```{r}
-df <-read_csv("C:/Users/camil/Downloads/divvy-tripdata/202107-divvy-tripdata.csv",col_types=cols(start_station_id=col_character(),end_station_id = col_character()))
+df <-read_csv("C:/Users/lk/Downloads/divvy-tripdata/202107-divvy-tripdata.csv",col_types=cols(start_station_id=col_character(),end_station_id = col_character()))
 sample_df <- sample_n(df, 767554, replace=F)
 write_csv(sample_df, "sample_dataset.csv")
 print(sample_df)
