@@ -1,7 +1,7 @@
 ---
 title: "Cyclistic Case Study"
 author: "Lakshmi Kant"
-date: "`r Sys.Date()`"
+date: "`11-Feb-2023`"
 output:
   pdf_document: default
   html_document: default
