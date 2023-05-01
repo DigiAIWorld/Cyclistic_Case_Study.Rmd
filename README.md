@@ -1,8 +1,8 @@
 ---
-title: "Cyclistic Case Study"
-author: "Lakshmi Kant"
-date: "`11-Feb-2023`"
-output:
+Title: "Cyclistic Case Study"
+Author: "Lakshmi Kant"
+Date: "`11-Feb-2023`"
+Output:
   pdf_document: default
   html_document: default
 ---
