@@ -8,11 +8,7 @@ Output:
 ---
 ![image](https://user-images.githubusercontent.com/43418706/235446898-ab20faf9-0221-4ad0-a890-04ebb0bdf1b7.png)
 
-## A Capstone Project for the Google Data Analystics Professional Certificate
-
-![image](https://user-images.githubusercontent.com/43418706/235446842-f1b346d0-a496-4412-b079-2dfcaf2a2a7f.png)
-
-
+## Cyclistic Case Study with R
 
 ### Background Scenario
 
@@ -356,3 +352,7 @@ cyclistic_new_df %>%
 -- Because personally identifying information was scrubbed for the rider IDs, there was no way to know the percentage of casual riders who lived locally and the percentage of those who are visitors from out of town. This would be an important metric for marketing to local users and encouraging them to become members.
 
 -- A number of start and end station ids were missing from the dataset. A full understanding of the most popular starting and ending locations would be helpful in marketing, as well as identifying possible "deserts" where bikes can be added.
+
+# Follow me:
+* Linkedin: https://www.linkedin.com/in/digiaiworld/
+* Portfolio: https://digiaiworld.netlify.app/
