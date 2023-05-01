@@ -6,7 +6,12 @@ Output:
   pdf_document: default
   html_document: default
 ---
+![image](https://user-images.githubusercontent.com/43418706/235446898-ab20faf9-0221-4ad0-a890-04ebb0bdf1b7.png)
+
 ## A Capstone Project for the Google Data Analystics Professional Certificate
+
+![image](https://user-images.githubusercontent.com/43418706/235446842-f1b346d0-a496-4412-b079-2dfcaf2a2a7f.png)
+
 
 
 ### Background Scenario
