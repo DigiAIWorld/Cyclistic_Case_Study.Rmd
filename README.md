@@ -354,5 +354,5 @@ cyclistic_new_df %>%
 -- A number of start and end station ids were missing from the dataset. A full understanding of the most popular starting and ending locations would be helpful in marketing, as well as identifying possible "deserts" where bikes can be added.
 
 # Follow me:
-* Linkedin: https://www.linkedin.com/in/digiaiworld/
-* Portfolio: https://digiaiworld.netlify.app/
+* Linkedin: https://www.linkedin.com/in/kant-ai/
+* Portfolio: https://genrix.netlify.app/
