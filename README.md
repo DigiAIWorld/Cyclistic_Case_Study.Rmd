@@ -355,4 +355,4 @@ cyclistic_new_df %>%
 
 # Follow me:
 * Linkedin: https://www.linkedin.com/in/kant-ai/
-* Portfolio: https://genrix.netlify.app/
+* Portfolio: https://kantrixai.netlify.app/
